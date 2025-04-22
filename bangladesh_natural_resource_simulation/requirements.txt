@@ -1,0 +1,25 @@
+# Core Simulation & Analysis Dependencies
+matplotlib>=3.0.0 # For basic plotting in the analysis engine
+
+# Potential Future Dependencies (Based on Prompt)
+# Data Handling & Geospatial
+# pandas>=1.0.0
+# geopandas>=0.8.0 
+# rasterio>=1.0.0 # If handling raster data
+# shapely>=1.7.0 # For geometric operations (often needed by geopandas)
+
+# Modeling & Machine Learning
+# networkx>=2.5 # For network analysis (e.g., ecological networks)
+# scikit-learn>=0.24 # For potential ML components (e.g., prediction)
+# tensorflow>=2.0.0 # For deep learning (e.g., satellite image analysis)
+# torch>=1.8.0 # Alternative deep learning library
+# mesa>=1.0.0 # For Agent-Based Modeling
+# pysd>=2.0.0 # For System Dynamics model integration
+
+# Cloud & APIs
+# earthengine-api>=0.1.200 # For Google Earth Engine integration
+
+# Visualization & Dashboarding
+# plotly>=5.0.0
+# dash>=2.0.0
+# jupyter # For interactive exploration 
